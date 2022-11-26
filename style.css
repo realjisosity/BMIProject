@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mali', cursive;
+}
+body{
+    background: linear-gradient(rgb(187, 255, 247),rgb(158, 216, 255),rgb(146, 177, 255));
+    height: 100vh;
+    background-size: cover;
+}
+.box{
+    margin-left: 40%;
+    margin-top: 250px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    background: linear-gradient(150deg,rgba(198, 198, 198,0.2),rgba(95, 95, 95,0.2));
+    border: 2px solid rgba(161, 161, 161,0.19);
+    border-radius:10px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 3px 40px 0 rgba(66, 66, 66,0.3);
+}
+.lab{
+    margin-left: 7rem;
+    margin-top:1rem;
+    position: relative;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+    text-shadow: 1px 3px 0.6px rgb(109, 207, 253);
+   color: rgba(255, 89, 180, 0.786);
+    color-interpolation-filters: linearRGB;
+}
+.inp{
+    position: relative;
+    margin-top: 3rem;
+    margin-left:6rem;
+}
+#it1{
+    margin-left: 2rem;
+    height: 2rem;
+    border-radius:3px;
+    background: rgba(144, 215, 248,0.6);
+    border: rgba(185, 233, 255, 0.6) solid 1px;
+    position: relative;
+    text-align: center;
+    
+}
+#it2{
+    margin-left:3.4rem;
+    position: relative;
+    height: 2rem;
+    border-radius:3px;
+    background: rgba(144, 215, 248,0.6);
+    border: rgba(185, 233, 255, 0.6) solid 1px;
+    text-align: center;
+}
+.btn{
+    margin-top: 2rem;
+    position: relative;
+}
+.but{
+
+    margin-top:2rem;
+    margin-left:11rem;
+    width: 40px;
+    height: 50px;
+}
+.but button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 3px;
+    border: 2px solid rgba(185, 233, 255, 0.6);
+    background: linear-gradient(to right,rgba(254, 117, 224, 0.859),rgb(198, 124, 254),rgb(122, 137, 254));
+    color: rgba(117, 251, 217, 0.744);
+    text-decoration: solid;
+    font-weight: bold;
+    cursor: crosshair;
+}
+.BMI{
+    position: relative;
+    margin-top: 1rem;
+    margin-left:8rem;
+}
+.ploblem{
+    position: relative;
+    margin-top: 1rem;
+    margin-left:8rem;
+}
+.bmiResult{
+    margin-left: 1.5rem;
+    height: 2rem;
+    border-radius:3px;
+    background: rgba(144, 215, 248,0.6);
+    border: rgba(185, 233, 255, 0.6) solid 1px;
+    position: relative;
+    text-align: center;
+    color: rgba(198, 39, 243, 0.862);
+}
+.weiResult{
+    margin-left: 1.5rem;
+    height: 2rem;
+    border-radius:3px;
+    background: rgba(144, 215, 248,0.6);
+    border: rgba(185, 233, 255, 0.6) solid 1px;
+    position: relative;
+    text-align: center;
+    color: rgba(29, 27, 27, 0.885);
+}
